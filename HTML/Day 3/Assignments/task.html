@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Order Form</title>
+</head>
+
+<body>
+
+    <h1>🍕 Pizza Order Here</h1>
+    <hr>
+
+    <form>
+
+        <!-- User Details -->
+        <label>First Name:</label><br>
+        <input type="text" name="fname" required><br><br>
+
+        <label>Last Name:</label><br>
+        <input type="text" name="lname" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Contact:</label><br>
+        <input type="tel" name="contact" required><br><br>
+
+        <label>Preferred Delivery Date:</label><br>
+        <input type="date" name="date" required><br><br>
+
+        <!-- Size -->
+        <b>Size:</b><br>
+        <input type="radio" name="size" value="small" required> Small
+        <input type="radio" name="size" value="medium"> Medium
+        <input type="radio" name="size" value="large"> Large
+        <br><br>
+
+        <!-- Outlet -->
+        <label>Outlet:</label><br>
+        <select name="outlet" required>
+            <option value="">Select Outlet</option>
+            <option value="delhi">Delhi</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="bangalore">Bangalore</option>
+        </select>
+        <br><br>
+
+        <!-- Menu -->
+        <h2>Menu</h2>
+
+        <input type="checkbox" name="pizza[]" value="hawaiian"> Hawaiian (150₹ / 250₹)
+        Quantity:
+        <select name="hawaiian_qty">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        <br><br>
+
+        <input type="checkbox" name="pizza[]" value="pepperoni"> Pepperoni (140₹ / 240₹)
+        Quantity:
+        <select name="pepperoni_qty">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        <br><br>
+
+        <input type="checkbox" name="pizza[]" value="veggie"> Veggie (120₹ / 220₹)
+        Quantity:
+        <select name="veggie_qty">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        <br><br>
+
+        <!-- Submit -->
+        <input type="submit" value="Order Now">
+
+    </form>
+
+</body>
+
+</html>

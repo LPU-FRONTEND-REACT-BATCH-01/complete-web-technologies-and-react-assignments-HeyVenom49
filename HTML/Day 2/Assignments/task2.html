@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hotel Booking Form</title>
+</head>
+
+<body>
+
+    <form>
+
+        <fieldset>
+            <legend>Name</legend>
+            First Name:
+            <input type="text" name="firstName">
+            Last Name:
+            <input type="text" name="lastName">
+        </fieldset>
+
+        <br>
+
+        Gender:
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+
+        <br><br>
+
+        E-mail:
+        <input type="email" name="email" placeholder="e.g myemail@gmail.com">
+
+        <br><br>
+
+        Room Type:
+        <select name="roomType">
+            <option value="">--Select--</option>
+            <option value="single">Single</option>
+            <option value="double">Double</option>
+            <option value="xl">XL</option>
+        </select>
+
+        <br><br>
+
+        Number of guests:
+        <input type="number" name="guests" min="1" max="10" placeholder="e.g 1,2,3...">
+
+        <br><br>
+
+        Arrival Date & Time:
+        <input type="date" name="arrivalDate">
+        <input type="time" name="arrivalTime">
+
+        <br><br>
+
+        Departure Date:
+        <input type="date" name="departureDate">
+
+        <br><br>
+
+        City:
+        <select name="city">
+            <option value="">--Select--</option>
+            <option value="delhi">Delhi</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="jaipur">Jaipur</option>
+        </select>
+
+        <br><br>
+
+        <input type="checkbox" name="terms"> Agree Terms and Conditions
+
+        <br><br>
+
+        Special Requests:
+        <br>
+        <textarea name="requests" rows="4" cols="30"></textarea>
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+
+</html>
