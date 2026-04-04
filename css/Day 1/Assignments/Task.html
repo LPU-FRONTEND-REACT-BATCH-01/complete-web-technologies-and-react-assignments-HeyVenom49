@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Styled Page</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background: #f4f6f8;
+            padding: 20px;
+        }
+
+        .biryani>h1 {
+            color: brown;
+        }
+
+        .biryani>li {
+            margin: 6px 0;
+            color: #333;
+        }
+
+        /* .biryani>li:nth-of-type(3) {
+            color: deeppink;
+        } */
+
+        /* .biryani>h1+li+li+div+li {
+            color: darkred;
+        } */
+
+
+        /* 
+        .biryani>li:nth-child {
+
+        }
+        */
+
+        .biryani>.biryani>li:nth-last-child(2) {
+            color: purple;
+        }
+
+        .biryani>div>ul>li {
+            color: darkgreen;
+            list-style-type: circle;
+        }
+
+        .biryani>h1+li+li+div+li+h1 {
+            color: darkblue;
+        }
+
+        .lassi>h1 {
+            color: purple;
+        }
+
+        .lassi>li {
+            margin: 6px 0;
+        }
+
+        .lassi>div>ul>li {
+            color: orange;
+            list-style-type: square;
+        }
+
+        h1+li {
+            margin-top: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <ul class="biryani">
+        <h1>Ingredients for Biryani</h1>
+        <li>Rice</li>
+        <li>Chicken</li>
+        <div class="chicken">
+
+            <ul>
+                <li>Fried</li>
+                <li>Grilled</li>
+                <li>Roasted</li>
+            </ul>
+
+        </div>
+        <li>Paneer</li>
+        <h1>Fighter Jet</h1>
+        <li>Spices</li>
+        <li>Gas/Electric</li>
+    </ul>
+
+    <hr>
+
+    <ul class="lassi">
+        <h1>Ingredients for Lassi</h1>
+        <li>Curd</li>
+        <li>Water</li>
+        <li>Sugar</li>
+        <div>
+            <ul class="sugar">
+                <li>White Sugar</li>
+                <li>Brown Sugar</li>
+            </ul>
+        </div>
+        <li>Malai</li>
+        <li>Kova</li>
+    </ul>
+
+</body>
+
+</html>

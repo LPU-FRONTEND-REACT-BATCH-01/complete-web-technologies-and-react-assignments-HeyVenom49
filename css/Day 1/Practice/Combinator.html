@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Combinator CSS Example</title>
+    <style>
+        body {
+            background: #f0f8ff;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        h1 {
+            color: #2a4d69;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            max-width: 300px;
+            margin: 0 auto;
+            background: #ffffff;
+            border: 1px solid #c0d6df;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        ul li {
+            color: #1f7a8c;
+            padding: 10px 15px;
+        }
+
+        li+li {
+            margin-top: 5px;
+            border-top: 1px solid #dcdcdc;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>My List</h1>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+</body>
+
+</html>
