@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div{
+            width: 50px;
+            height: 50px;
+            background-color: red;
+        }
+        p{
+            font-size: large;
+            color: red;
+            text-shadow: 0px -5px 5px orange;
+        }
+        @media (max-width:500px) {
+            div{
+                background-color: blue;
+            }
+        }
+        @media (min-width:501px) {
+            div{
+                background-color: purple;
+            }
+            p{
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <p>Mat kar lala</p>
+</body>
+</html>

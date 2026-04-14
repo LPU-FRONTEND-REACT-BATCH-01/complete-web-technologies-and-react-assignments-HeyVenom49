@@ -1,0 +1,28 @@
+console.log("1")
+setTimeout(()=>{
+    console.log("s1");
+},2000)
+setTimeout(()=>{
+    console.log("s2");
+},2000)
+setTimeout(()=>{
+    console.log("s3");
+},1999)
+setTimeout(()=>{
+    console.log("s4");
+},1998)
+setTimeout(()=>{
+    console.log("s5");
+},1998)
+setTimeout(()=>{
+    console.log("s6");
+},1998)
+setTimeout(()=>{
+    console.log("s7");
+},2000)
+setTimeout(()=>{
+    console.log("s8");
+},2000)
+setTimeout(()=>{
+    console.log("s9");
+},2000)
