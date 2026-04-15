@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form method="POST">
+        <label for="name">Username:</label>
+        <input type="text" required id="name" name="name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" required id="email" name="email"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label><br><br>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="russia">UK</option>
+        </select><br><br>
+
+        <label for="skill">Skills:</label>
+        <input type="checkbox" name="skill" id="skill1">
+        <label for="skill1">HTML</label>
+        <input type="checkbox" name="skill" id="skill2">
+        <label for="skill2">CSS</label>
+        <input type="checkbox" name="skill" id="skill3">
+        <label for="skill3">JavaScript</label><br><br>
+        <input type="checkbox" name="terms" id="terms">
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            background-color: rgb(27, 27, 85);
+
+            display: grid;
+            grid-template-rows: 150px 150px 150px;
+            grid-template-columns: 150px 150px 150px 150px;
+
+            justify-content: center;
+            align-content: center;
+
+            gap: 10px;
+        }
+
+        .item {
+            height: 100%;
+            width: 100%;
+        }
+
+        .div1 {
+            grid-row: 1/4;
+            background-color: greenyellow;
+        }
+
+        .div2 {
+            grid-column: 2/4;
+            background-color: greenyellow;
+        }
+
+        .div3 {
+            background-color: red;
+        }
+
+        .div4 {
+            background-color: orange;
+        }
+
+        .div5 {
+            background-color: red;
+        }
+
+        .div6 {
+            grid-row: 2/4;
+            grid-column: 4/5;
+            background-color: greenyellow;
+        }
+
+        .div7 {
+            background-color: red;
+        }
+
+        .div8 {
+            background-color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="div1 item"></div>
+        <div class="div2 item"></div>
+        <div class="div3 item"></div>
+        <div class="div4 item"></div>
+        <div class="div5 item"></div>
+        <div class="div6 item"></div>
+        <div class="div7 item"></div>
+        <div class="div8 item"></div>
+    </div>
+</body>
+
+</html>
